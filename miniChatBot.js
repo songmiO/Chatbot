@@ -1,11 +1,20 @@
-function chat() {
-  const inputBox = document.getElementsByClassName('inputBox');
-  const chatBotBtn = document.getElementsByClassName('chatBotBtn');
+const movieFirst = {
+  title: 'Before Sunrise',
+  openingDate: '1996년 3월 16일',
+};
 
-  if (inputBox.value === '반가워') {
-    console.log('나도 반가워~');
-  } else if (inputBox.value === '좋아!') {
-    console.log('나두 좋아!!');
-  }
-  chatBotBtn.addEventListener('check', chat);
+const movieSecond = {
+  title: 'Inception',
+  openingDate: '2010년 7월 21일',
+};
+
+const title = document.getElementById('title');
+const openingDate = document.getElementById('openingDate');
+const genre = document.getElementById('genre');
+
+function openMovie(movie) {
+  console.log('출력');
+  title.innerText = movie.title;
+  openingDate.innerText = movie.openingDate;
+  genre.innerText = movie.genre;
 }

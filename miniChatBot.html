@@ -2,7 +2,8 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8" />
-    <title>favoriteMovie</title>
+    <link rel="stylesheet" href="miniChatBot.css" />
+    <title>movie</title>
   </head>
   <body>
     <div id="movieBtnContainer">
@@ -12,10 +13,13 @@
       <button id="movieBtn2" onclick="openMovie(movieSecond)">인셉션</button>
       <button id="movieBtn3" onclick="openMovie(movieThird)">미비포유</button>
     </div>
-    <div id="movieIntro">
+
+    <div class="movieIntro">
       <h1 id="title"></h1>
       <li id="openingDate"></li>
-      <li id="genre"></li>
+    </div>
+    <div class="hello">
+      <a href="#">Hello</a>
     </div>
     <script src="./favMovie.js"></script>
   </body>

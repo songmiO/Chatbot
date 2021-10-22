@@ -10,5 +10,4 @@ function openMovie(movie) {
   title.innerText = movie.title;
   openingDate.innerText = movie.openingDate;
   genre.innerText = movie.genre;
-  console.log('출력');
 }

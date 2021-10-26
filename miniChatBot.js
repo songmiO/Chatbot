@@ -1,5 +1,5 @@
 const movieFirst = {
-  title: 'Before Sunrise',
+  title: 'Midnight Sun',
 };
 
 const title = document.getElementById('title');

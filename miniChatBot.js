@@ -1,6 +1,6 @@
 const movieFirst = {
   title: 'Midnight Sun',
-  opningdate: '2018.03.22',
+  openingdate: '2018',
 };
 
 const title = document.getElementById('title');

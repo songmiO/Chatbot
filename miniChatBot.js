@@ -1,7 +1,21 @@
-const movieFirst = {
-  title: 'Midnight Sun',
-  openingdate: '2018',
-};
+function changeSpeak() {
+  const inputValue = document.getElementById('input').ariaValueMax;
 
-const title = document.getElementById('title');
-const opningdate = document.getElementById('openingDate');
+  if (inputValue == order.blue) {
+    document.body.style.backgroundColor = 'blue';
+  } else if (inputValue == order.white) {
+    document.body.style.backgroundColor = 'white';
+  } else {
+    const chatting = document.getElementById('chatBot');
+    const writing = new Writer(chatting, { loop: false });
+
+    writing
+      .typeString('잘못알아들었다냥')
+      .pauseFor(1300)
+      .deleteAll()
+      .typeString('한 번 더 말해봐!')
+      .pauseFor(2500)
+      .start();
+  }
+  document.getElementById('input').value = '';
+}

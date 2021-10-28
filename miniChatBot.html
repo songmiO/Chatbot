@@ -2,13 +2,15 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="miniChatBot.css" />
-    <title>movie</title>
+    <title>miniChatBot</title>
   </head>
   <body>
-    <div class="movieIntro">
-      <h1 id="title"></h1>
-      <li id="openingDate"></li>
+    <div id="chatBot">
+      <div id="chatBotBox">어떤말을 할꼬냥?</div>
+    </div>
+    <div id="contentBox">
+      <input type="text" id="input" />
+      <button id="chatBotBtn" onclick="changeSpeak()"></button>"
     </div>
     <script src="./miniChatBot.js"></script>
   </body>

@@ -17,6 +17,6 @@ function changeSpeak() {
       .pauseFor(2500)
       .start();
   }
-  console.log('출력');
+
   document.getElementById('input').value = '';
 }

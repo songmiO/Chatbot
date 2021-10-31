@@ -10,7 +10,7 @@ function changeSpeak() {
     const writing = new Writer(chatting, { loop: false });
 
     writing
-      .typeString('What are you doign?')
+      .typeString('')
       .pauseFor(1300)
       .deleteAll()
       .typeString('한 번 더 말해봐!')

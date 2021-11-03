@@ -11,6 +11,7 @@ function changeSpeak() {
 
     writing.typeString('뭐할꼬냥?').pauseFor(1300).deleteAll().start();
   }
+  console.log('확인');
 
   document.getElementById('input').value = '';
 }

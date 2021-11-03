@@ -3,7 +3,7 @@ function changeSpeak() {
 
   if (inputValue == order.red) {
     document.body.style.backgroundColor = 'red';
-  } else if (inputValue == order.white) {
+  } else if (inputValue == order.blue) {
     document.body.style.backgroundColor = 'blue';
   } else {
     const chatting = document.getElementById('chatBot');

@@ -2,7 +2,7 @@ function changeSpeak() {
   const inputValue = document.getElementById('input').ariaValueMax;
 
   if (inputValue == order.blue) {
-    document.body.style.backgroundColor = 'blue';
+    document.body.style.backgroundColor = 'red';
   } else if (inputValue == order.white) {
     document.body.style.backgroundColor = 'white';
   } else {

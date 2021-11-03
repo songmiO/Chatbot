@@ -9,9 +9,8 @@ function changeSpeak() {
     const chatting = document.getElementById('chatBot');
     const writing = new Writer(chatting, { loop: false });
 
-    writing.typeString('뭐할꼬냥?').pauseFor(1300).deleteAll().start();
+    writing.typeString('what?').pauseFor(1300).deleteAll().start();
   }
-  console.log('확인');
 
   document.getElementById('input').value = '';
 }

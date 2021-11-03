@@ -4,7 +4,7 @@ function changeSpeak() {
   if (inputValue == order.red) {
     document.body.style.backgroundColor = 'red';
   } else if (inputValue == order.white) {
-    document.body.style.backgroundColor = 'white';
+    document.body.style.backgroundColor = 'blue';
   } else {
     const chatting = document.getElementById('chatBot');
     const writing = new Writer(chatting, { loop: false });

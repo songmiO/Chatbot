@@ -9,7 +9,7 @@ function changeSpeak() {
     const chatting = document.getElementById('chatBot');
     const writing = new Writer(chatting, { loop: false });
 
-    writing.typeString('what?').pauseFor(1000).deleteAll().start();
+    writing.typeString('what?').pauseFor(1200).deleteAll().start();
   }
 
   document.getElementById('input').value = '';

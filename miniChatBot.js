@@ -1,17 +1,21 @@
 function changeSpeak() {
   const inputValue = document.getElementById('input').ariaValueMax;
 
-  if (inputValue == order.red) {
-    document.body.style.backgroundColor = 'red';
-  } else if (inputValue == order.blue) {
+  if (inputValue == order.blue) {
     document.body.style.backgroundColor = 'blue';
+  } else if (inputValue == order.white) {
+    document.body.style.backgroundColor = 'white';
   } else {
     const chatting = document.getElementById('chatBot');
     const writing = new Writer(chatting, { loop: false });
 
-    writing.typeString('what?').pauseFor(1000).deleteAll().start();
-    writing.typeString('how are you?').pauseFor(1000).deleteAll().start();
+    writing
+      .typeString('잘못알아들었다냥')
+      .pauseFor(1300)
+      .deleteAll()
+      .typeString('한 번 더 말해봐!')
+      .pauseFor(2500)
+      .start();
   }
-
   document.getElementById('input').value = '';
 }

@@ -10,7 +10,7 @@ function changeSpeak() {
     const writing = new Writer(chatting, { loop: false });
 
     writing
-      .typeString('잘못알아들었다냥')
+      .typeString('뭐라고 했더라?')
       .pauseFor(1300)
       .deleteAll()
       .typeString('한 번 더 말해봐!')
@@ -18,4 +18,5 @@ function changeSpeak() {
       .start();
   }
   document.getElementById('input').value = '';
+  console.log('출력');
 }

@@ -9,13 +9,7 @@ function changeSpeak() {
     const chatting = document.getElementById('chatBot');
     const writing = new Writer(chatting, { loop: false });
 
-    writing
-      .typeString('뭐라고 했더라?')
-      .pauseFor(1300)
-      .deleteAll()
-      .typeString('한 번 더 말해봐!')
-      .pauseFor(2500)
-      .start();
+    writing.typeString('뭐라고 했더라?').pauseFor(1300).deleteAll().start();
   }
   document.getElementById('input').value = '';
   console.log('출력');

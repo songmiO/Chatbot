@@ -12,5 +12,4 @@ function changeSpeak() {
     writing.typeString('뭐라고 했더라?').pauseFor(1300).deleteAll().start();
   }
   document.getElementById('input').value = '';
-  console.log('출력');
 }

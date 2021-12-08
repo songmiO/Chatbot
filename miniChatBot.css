@@ -1,4 +1,9 @@
-.chatBotBtn {
-  color: skyblue;
-  font-size: 50px;
+.chatBotBox {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contentBox {
+  padding: 10px;
+  text-align: center;
 }

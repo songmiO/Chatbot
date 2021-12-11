@@ -8,8 +8,7 @@ function changeSpeak() {
   } else {
     const chatting = document.getElementById('chatBot');
     const writing = new Writer(chatting, { loop: false });
-
-    writing.typeString('뭐라고 했더라?').pauseFor(1300).deleteAll().start();
   }
   document.getElementById('input').value = '';
+  console.log('확인');
 }

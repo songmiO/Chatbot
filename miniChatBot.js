@@ -33,6 +33,7 @@ function btnClick() {
     json.push({ question: `${question}`, answer: `${answer}` });
     document.getElementById('txt-out').innerHTML = '명령어 저장!';
     key = 0;
+    console.log('출력');
   }
 
   for (let i = 0; i < json.length; i++) {
@@ -46,7 +47,7 @@ function btnClick() {
   question = value;
   key = 1;
 
-  for (let i = 0; i < json.length; i++) {
+  for (let i = 0; i < json.length; ) {
     if (value == json[i].question) {
       reply.innerHTML = json[i].answer;
       return;

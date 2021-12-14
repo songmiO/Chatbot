@@ -45,9 +45,9 @@ function btnClick() {
 
   reply.innerHTML = '명령어를 입력해줘!';
   question = value;
-  key = 1;
+  key = 0;
 
-  for (let i = 0; i < json.length; ) {
+  for (let i = 0; i < json.length; length++) {
     if (value == json[i].question) {
       reply.innerHTML = json[i].answer;
       return;

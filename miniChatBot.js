@@ -33,7 +33,6 @@ function btnClick() {
     json.push({ question: `${question}`, answer: `${answer}` });
     document.getElementById('txt-out').innerHTML = '명령어 저장!';
     key = 0;
-    console.log('출력');
   }
 
   for (let i = 0; i < json.length; i++) {

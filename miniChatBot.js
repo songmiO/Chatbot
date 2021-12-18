@@ -21,7 +21,6 @@ function btnClick() {
       reply.innerHTML = '명령어를 입력해주세여.';
       key = 0;
     }
-    console.log('출력');
     return;
   }
 

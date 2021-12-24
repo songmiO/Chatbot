@@ -40,6 +40,7 @@ function btnClick() {
       reply.innerHTML = json[i].answer;
       return;
     }
+    console.log('출력');
   }
 
   reply.innerHTML = '명령어를 입력해줘!';

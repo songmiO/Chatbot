@@ -53,5 +53,4 @@ function btnClick() {
       return;
     }
   }
-  console.log('확인');
 }

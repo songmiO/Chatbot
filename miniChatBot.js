@@ -23,33 +23,4 @@ function btnClick() {
     }
     return;
   }
-
-  if (key == 2) {
-    answer = value;
-    push_json();
-  }
-
-  function push_json() {
-    json.push({ question: `${question}`, answer: `${answer}` });
-    document.getElementById('txt-out').innerHTML = '명령어 저장!';
-    key = 0;
-  }
-
-  for (let i = 0; i < json.length; i++) {
-    if (value == json[i].question) {
-      reply.innerHTML = json[i].answer;
-      return;
-    }
-  }
-
-  reply.innerHTML = '명령어를 입력해줘!';
-  question = value;
-  key = 0;
-
-  for (let i = 0; i < json.length; length++) {
-    if (value == json[i].question) {
-      reply.innerHTML = json[i].answer;
-      return;
-    }
-  }
 }

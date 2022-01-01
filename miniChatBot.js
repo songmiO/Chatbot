@@ -23,4 +23,5 @@ function btnClick() {
     }
     return;
   }
+  console.log('출력');
 }

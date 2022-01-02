@@ -13,15 +13,14 @@ var key = 0;
 function btnClick() {
   var value = document.getElementById('input').value;
 
-  if (key == 1) {
+  if (key == 0) {
     if (value == '네') {
       reply.innerHTML = '당신의 답변을 입력하세요.';
-      key = 2;
+      key = 1;
     } else {
       reply.innerHTML = '명령어를 입력해주세여.';
       key = 0;
     }
     return;
   }
-  console.log('출력');
 }

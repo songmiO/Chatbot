@@ -1,2 +1,2 @@
 var key = 0;
-console.log('출력');
+console.log('check');

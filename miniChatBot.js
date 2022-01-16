@@ -1,2 +1,2 @@
-var key = 0;
-console.log('check');
+var key = 1;
+console.log('확인');

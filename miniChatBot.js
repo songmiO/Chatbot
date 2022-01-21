@@ -1,2 +1,2 @@
 var key = 1;
-console.log('');
+console.log('확인');

@@ -1,1 +1,1 @@
-console.log('체크');
+console.log('');

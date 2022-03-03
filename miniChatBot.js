@@ -1,1 +1,1 @@
-console.log('확인');
+console.log('');

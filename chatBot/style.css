@@ -9,6 +9,17 @@ body {
 }
 
 .chatbot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatbot-box {
+  width: 250px;
+  padding: 35px;
+  border: 1px solid #000000;
+  border-radius: 10px;
   text-align: center;
 }
 

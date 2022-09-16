@@ -18,9 +18,13 @@ body {
 .chatbot-box {
   width: 250px;
   padding: 35px;
-  border: 1px solid #000000;
+  border: 1px solid #ffd966;
   border-radius: 10px;
   text-align: center;
+}
+
+.chatbot-box p {
+  color: #f5a42b;
 }
 
 .chatbot-image {
@@ -41,7 +45,13 @@ input {
   background-color: #fff2cc;
 }
 
+input::placeholder {
+  text-align: center;
+  color: #f5a42b;
+}
+
 button {
   border-radius: 10px;
   background-color: #ffd966;
+  color: #f5a42b;
 }

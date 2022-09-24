@@ -19,6 +19,7 @@ function confirm() {
   } else if (inputValue == '사랑해') {
     chatBotBox.innerHTML = '내가 더 ❤️❤️❤️';
   } else {
+    console.log('출력');
     chatBotBox.innerHTML = '아직 배우지 않은 말이예요. 가르쳐 주세요!';
   }
 }

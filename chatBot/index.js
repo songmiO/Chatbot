@@ -5,6 +5,7 @@ function confirm() {
   const chatBotBox = document.getElementsByClassName('chatbot-box')[0];
 
   if (inputValue == '안녕') {
+  console.log('출력');
     chatBotBox.innerHTML = '반가워!';
   } else if (inputValue == '너 이름이 뭐야?') {
     chatBotBox.innerHTML = '난 전기 포켓몬 피카츄야!';

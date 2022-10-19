@@ -16,8 +16,6 @@ function confirm() {
     // document.getElementsByClassName('chatbot-box')[0].innerHTML = '피카~츄!';
   } else if (inputValue == '오늘 기분 어때?') {
     chatBotBox.innerHTML = '아주 좋아!😊';
-  } else if (inputValue == '사랑해') {
-    chatBotBox.innerHTML = '내가 더 ❤️❤️❤️';
   } else {
     chatBotBox.innerHTML = '아직 배우지 않은 말이예요. 가르쳐 주세요!';
   }

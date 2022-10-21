@@ -8,7 +8,7 @@ function confirm() {
     chatBotBox.innerHTML = '반가워!';
   } else if (inputValue == '너 이름이 뭐야?') {
     chatBotBox.innerHTML = '난 전기 포켓몬 피카츄야!';
-  } else if (inputValue == '백만볼트!') {
+  } else if (inputValue == '백만볼트') {
     document.getElementsByClassName(
       'chatbot-change-image'
     )[0].style.visibility = 'visible';
